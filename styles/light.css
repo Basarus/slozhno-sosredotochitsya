@@ -9,4 +9,57 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-first-color: #FFC2E6;
+  --background-second-color: #FF8DCB;
+  --main-title-color: #FFC2E6;
+  --main-text-color: #353430;
+ background-color: var(--main-title-color);
+}
+
+.page.theme_light > .header.decorated-zone{
+  background-image: url(../images/cover-image-light.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.header__theme-menu-button{
+  color: var(--background-second-color);
+}
+
+.header__theme-menu-button:hover{
+  border: 1px solid var(--background-second-color);
+}
+
+.header_title{
+  color: var(--main-title-color);
+  text-shadow: 0.1rem 0.1rem 0 var(--background-second-color);
+}
+
+
+.header_description{
+  background-color: var(--background-second-color);
+  color: var(--background-first-color);
+}
+
+.info_block_title{
+  color: var(--background-second-color)
+}
+
+.subtitle{
+  background-color: var(--background-second-color);
+  color: var(--background-first-color)
+}
+
+.info_block-item-title{
+  background-color: var(--background-second-color);
+  color: var(--background-first-color)
+}
+
+.info_block-item-text{
+  color: var(--main-text-color)
+}
+
+.footer_title{
+  color: var(--main-title-color);
+  text-shadow: 0.1rem 0.1rem 0 var(--background-second-color);
 }

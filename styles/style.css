@@ -2,4 +2,259 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: "IBM Plex Mono";
+  overflow-x: hidden;
+  background-attachment: fixed;
 }
+
+.header__theme-menu{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__theme-menu-button{
+   background: none;
+   border: none;
+}
+
+.header__theme-menu-list{
+  list-style: none;
+}
+
+@media (max-width: 375px) {
+
+  .page{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    gap: 55px
+  }
+
+  .header__theme-menu{
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .header__theme-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .header_title{
+    font-size: 116px;
+    line-height: 82.5%;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .header_description{
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+  }
+
+  .info_block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    line-height: 23.4px;
+    font-weight: 700;
+  }
+
+  .images_block_collage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+
+  .info_block-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .info_block.first{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info_block.middle{
+    display: flex;
+    flex-direction: column;
+  }
+  .info_block.middle > .info_block-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info_block-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .info_block.down{
+    display: flex;
+  }
+
+  .info_block-item-title{
+    font-weight: 400;
+  }
+
+  .images_block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .images_block_collage-images{
+    max-width: 100%;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 647px;
+    width: 100%;
+  }
+
+  .footer_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 116px;
+    line-height: 82.5%;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .page{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    gap: 162px
+  }
+
+  .header__theme-menu{
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .header__theme-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .header_title{
+    font-size: 120px;
+    line-height: 82.5%;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .header_description{
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+  }
+
+  .info_block{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    line-height: 23.4px;
+    font-weight: 700;
+  }
+
+  .info_block.first{
+    display: flex;
+  }
+
+  .info_block.middle{
+    display: flex;
+    flex-direction: column;
+  }
+  .info_block.middle > .info_block-content{
+    display: flex;
+  }
+
+  .info_block.down{
+    display: flex;
+  }
+
+  .images_block_collage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+
+  .info_block-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .info_block-item-title{
+    font-weight: 400;
+  }
+
+  .images_block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .images_block_collage-images{
+    max-width: 100%;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 647px;
+    width: 100%;
+  }
+
+  .footer_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 116px;
+    line-height: 82.5%;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+@media (min-width: 768px) {
+ 
+} 
