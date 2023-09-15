@@ -46,6 +46,7 @@
 
 .theme_dark .header_rec_point {
   display: block;
+  color: var(--background-second-color)
 }
 
 .header__theme-menu {
@@ -74,10 +75,6 @@
 .header_title {
   text-shadow: 4px 4px 0px var(--title-color-sub-effect);
   color: var(--title-color-effect);
-}
-
-.header_rec_point {
-  color: var(--background-second-color)
 }
 
 .header_description {
@@ -281,7 +278,6 @@
   }
 
   .header_description {
-    display: flex;
     height: min-content;
     font-size: 18px;
     line-height: 23.4px;
@@ -474,7 +470,6 @@
   }
 
   .header_description {
-    display: flex;
     align-self: flex-end;
     height: min-content;
     font-size: 18px;
@@ -671,7 +666,6 @@
   }
 
   .header_description {
-    display: flex;
     align-self: flex-end;
     justify-self: center;
     width: 95%;
