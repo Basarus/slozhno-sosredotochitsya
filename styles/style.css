@@ -26,7 +26,7 @@
   --hover-color: #FF0070;
 }
 
-.page{
+.page {
   background-color: var(--background-main-color);
 }
 
@@ -40,7 +40,7 @@
   background-image: url('/images/cover-image-dark.png');
 }
 
-.header_rec_point{
+.header_rec_point {
   display: none;
 }
 
