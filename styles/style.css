@@ -104,6 +104,8 @@
 }
 
 .info-container-content-subtitle {
+  font-size: 18px;
+  font-weight: 700;
   color: var(--text-main-color);
   background-color: var(--background-second-color);
 }
@@ -124,7 +126,6 @@
   text-decoration: none;
   border: none;
   box-shadow: none;
-  text-decoration: none;
   outline: 1px solid var(--hover-color);
 }
 
@@ -175,11 +176,6 @@
 .info-container {
   font-size: 18px;
   line-height: 23.4px;
-}
-
-.info-container-content-subtitle {
-  font-size: 18px;
-  font-weight: 700;
 }
 
 .info-container-content-item {
