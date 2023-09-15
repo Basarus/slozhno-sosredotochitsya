@@ -4,101 +4,10 @@
   переключая тему
 */
 
-:root {
-  --background-main-color: #FFF1F7;
-  --background-second-color: #FF8DCB;
-  --title-color-effect: #FFC2E6;
-  --title-color-sub-effect: #FF0070;
-  --text-main-color: #353430;
-} 
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-   background-color: var(--background-main-color);
-}
-
-.header.decorated-zone{
-  background: url('/images/cover-image-light.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.header__theme-menu{
-  color: var(--text-main-color);
-}
-
-.header__theme-menu-button:hover{
-  outline: 1px solid var(--text-main-color);
-}
-
-.header__theme-menu-button:focus-visible{
-  outline: none;
-  text-decoration: underline var(--text-main-color);
-}
-
-.decorated-zone::before {
-  border-right: 1px solid var(--text-main-color);
-  border-top: 1px solid var(--text-main-color);
-}
-
-.decorated-zone::after {
-  border-left: 1px solid var(--text-main-color);
-  border-bottom: 1px solid var(--text-main-color);
-}
-
-.header_title{
-  text-shadow: 4px 4px 0px var(--title-color-sub-effect);
-  color: var(--title-color-effect);
-}
-
-.header_rec_point{
-  color: var(--background-second-color)
-}
-
-.header_description{
-  background: var(--background-second-color);
-  color: var(--text-main-color);
-}
-
-.info-container-title{
-  color: var(--text-main-color)
-}
-
-.info-container-content-title{
-  color: var(--text-main-color);
-  background-color: var(--background-second-color);
-}
-
-.info-container-content-item-text{
-  color: var(--text-main-color);
-}
-
-.info-container-href{
-  text-shadow: 1px 1px 0px var(--background-second-color);
-}
-
-.info-container-content-subtitle{
-  color: var(--text-main-color);
-  background-color: var(--background-second-color);
-}
-
-.image-container-title{
-  color: var(--text-main-color);
-  background-color: var(--background-second-color);
-}
-
-.footer_title{
-  text-shadow: 2px 2px 0px var(--title-color-sub-effect);
-  color: var(--title-color-effect);
-}
-
-.info-container-href:focus{
-  outline: 1px solid var(--text-main-color);
-}
-
-.header_rec_point{
-  display: none;
+  Так стили написанные ниже будут иметь больший вес,
+  чем стили в медиазапросе предпочтений пользователя
+*/
+  background-color: var(--background-main-color);
 }

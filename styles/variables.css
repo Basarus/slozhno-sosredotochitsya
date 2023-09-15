@@ -2,10 +2,3 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {
-  --background-main-color: #FFF1F7;
-  --background-second-color: #FF8DCB;
-  --title-color-effect: #FFC2E6;
-  --title-color-sub-effect: #FF0070;
-  --text-main-color: #353430;
-} 
