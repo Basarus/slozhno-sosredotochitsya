@@ -55,11 +55,11 @@
     --footer-title-sub-low-effect: #FF0070;
   }
 
-   .header_rec_point {
+  .header_rec_point {
     display: block;
   }
 
-  .theme_light > .header > .header_rec_point{
+  .theme_light>.header>.header_rec_point {
     display: none;
   }
 }
