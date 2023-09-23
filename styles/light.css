@@ -68,3 +68,12 @@
 .header_rec_point {
   display: none;
 }
+
+@media (768px >= width){
+  .header_title {
+    text-shadow: 4px 4px 0px var(--footer-title-sub-low-effect);
+  }
+  .footer_title {
+    text-shadow: 2px 2px 0px var(--footer-title-sub-low-effect);
+  }
+}
