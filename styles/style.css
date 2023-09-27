@@ -405,7 +405,7 @@
     font-size: 18px;
     line-height: 23.4px;
     grid-column: 2;
-    grid-row: 3/4;
+    grid-row: grid-row-end;
     margin-block-end: 163px;
     margin-inline-end: 20px;
   }
