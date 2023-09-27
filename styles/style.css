@@ -396,16 +396,15 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 82.5%;
     grid-column: 1/4;
-    grid-row: 1/4;
+    grid-row: 2;
   }
 
   .header_description {
-    position: relative;
     height: min-content;
     font-size: 18px;
     line-height: 23.4px;
     grid-column: 2;
-    grid-row: grid-row-end;
+    grid-row: 3;
     margin-block-end: 163px;
     margin-inline-end: 20px;
   }
