@@ -69,7 +69,7 @@
   display: none;
 }
 
-@media (768px > width) {
+@media (1024px >=width) {
   .header_title {
     text-shadow: 4px 4px 0px var(--title-color-sub-effect);
   }
@@ -79,7 +79,7 @@
   }
 }
 
-@media (width <=768px) {
+@media (width < 1024px) {
   .header_title {
     text-shadow: 4px 4px 0px var(--footer-title-sub-low-effect);
   }
