@@ -11,8 +11,6 @@
 .header__theme-menu {
   z-index: 3;
   color: var(--text-menu-color);
-  align-self: end;
-  transform: translateY(50%);
 }
 
 .header__theme-menu-button_active {
@@ -377,6 +375,8 @@
     grid-column: 2;
     grid-row: 1;
     margin-inline-end: 20px;
+    align-self: end;
+    transform: translateY(50%);
   }
 
   .header__theme-menu-list {
@@ -563,6 +563,8 @@
     grid-column: 2;
     grid-row: 1;
     margin-inline-end: 10px;
+    align-self: end;
+    transform: translateY(50%);
   }
 
   .header__theme-menu-list {
