@@ -116,7 +116,8 @@
 .header {
   position: relative;
   padding-top: 20px;
-  width: 100%;
+  height: 100vh;
+  width: 100vh;
   display: grid;
   grid-template-rows: 1fr 1.5fr 1fr;
   grid-template-columns: repeat(2, 1fr);
@@ -130,7 +131,8 @@
 
 .footer {
   padding-top: 20px;
-  width: 100%;
+  height: 100vh;
+  width: 100vh;
 }
 
 .decorated-zone {
@@ -169,8 +171,7 @@
 
 @media (width >=1024px) {
   .header {
-    min-height: 768px;
-    height: 100%;
+    min-height: 1024px;
     padding-bottom: 20px;
     margin-block-end: 60px;
   }
@@ -333,9 +334,7 @@
 
   .footer {
     position: relative;
-    min-height: 768px;
-    height: 100%;
-    width: 100%;
+    min-height: 1024px;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -354,8 +353,7 @@
 
 @media (768px <=width < 1024px) {
   .header {
-    min-height: 1024px;
-    height: 100%;
+    min-height: 768px;
     padding-bottom: 20px;
     margin-block-end: 60px;
   }
@@ -523,12 +521,11 @@
 
   .footer {
     position: relative;
-    min-height: 1024px;
-    height: 100%;
-    width: 100%;
+    min-height: 768px;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: repeat(2, 1fr);
+    
   }
 
   .footer_title {
@@ -546,7 +543,6 @@
 @media (width < 768px) {
   .header {
     min-height: 668px;
-    height: 100%;
     padding-bottom: 20px;
     margin-block-end: 40px;
   }
@@ -717,8 +713,6 @@
   .footer {
     position: relative;
     min-height: 668px;
-    height: 100%;
-    width: 100%;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: repeat(2, 1fr);
